@@ -7,3 +7,5 @@ replica.my.cnf
 replica.my.cnf.save
 .config/hub
 .ssh/
+.links2/
+.joe_state

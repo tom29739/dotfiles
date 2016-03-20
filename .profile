@@ -21,18 +21,14 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+# alias hub to git
 eval "$(hub alias -s)"
 
+# Set hub bash completion
 if [ -f $HOME/hub-linux-amd64-2.2.3/etc/hub.bash_completion ]; then
     . $HOME/hub-linux-amd64-2.2.3/etc/hub.bash_completion
 fi
 
-# if [ -d "$HOME/.local/bin" ]; then
-#     PATH="$PATH:$HOME/.local/bin"
-# fi
-
-# if [ -d "$HOME/powerline-status-2.3/powerline/bindings/bash/powerline.sh" ]; then
-#     . $HOME/powerline-status-2.3/powerline/bindings/bash/powerline.sh
-# fi
-
-PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
+# Set default editor
+export VISUAL=vim.basic
+export EDITOR=vim.basic
