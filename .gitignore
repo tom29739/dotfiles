@@ -13,3 +13,4 @@ replica.my.cnf.save
 .vim/plugged/
 .vim/plugged/vim-airline/
 .vim/plugged/*
+.vim/autoload/
