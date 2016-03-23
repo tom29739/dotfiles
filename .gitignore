@@ -9,3 +9,7 @@ replica.my.cnf.save
 .ssh/
 .links2/
 .joe_state
+.elinks/
+.vim/plugged/
+.vim/plugged/vim-airline/
+.vim/plugged/*

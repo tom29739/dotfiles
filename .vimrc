@@ -7,9 +7,10 @@ Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-sensible'
 " Plug 'valloric/youcompleteme'
 Plug 'airblade/vim-gitgutter'
-" Plug 'edkolev/tmuxline.vim'
+Plug 'edkolev/tmuxline.vim'
 Plug 'edkolev/promptline.vim'
 Plug 'vim-ctrlspace/vim-ctrlspace'
+" Plug 'chriskempson/base16-vim'
 
 " Add plugins to &runtimepath
 call plug#end()
