@@ -33,6 +33,5 @@ fi
 export VISUAL=vim.basic
 export EDITOR=vim.basic
 
-# Base16 Shell
-BASE16_SHELL="$HOME/.config/base16-shell/base16-londontube.dark.sh"
-[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+# Set some aliases
+alias tmux='tmux -2'
