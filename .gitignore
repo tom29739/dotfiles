@@ -14,3 +14,11 @@ replica.my.cnf.save
 .vim/plugged/vim-airline/
 .vim/plugged/*
 .vim/autoload/
+.composer/
+.*.swp
+.npm/
+.tmux/
+.virtualenvs/
+envs/
+local/
+node_modules/

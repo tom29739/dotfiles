@@ -17,6 +17,13 @@ Plug 'edkolev/tmuxline.vim'
 Plug 'edkolev/promptline.vim'
 Plug 'vim-ctrlspace/vim-ctrlspace'
 " Plug 'chriskempson/base16-vim'
+Plug 'yggdroot/indentline'
+Plug 'ervandew/supertab'
+Plug 'honza/vim-snippets'
+Plug 'SirVer/ultisnips'
+Plug 'sheerun/vim-polyglot'
+Plug 'davidhalter/jedi-vim'
+Plug 'ConradIrwin/vim-bracketed-paste'
 
 " Add plugins to &runtimepath
 call plug#end()
@@ -29,3 +36,12 @@ set showtabline=0
 " Enable vim-airline features
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
+
+"" Ultisnips stuff
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"

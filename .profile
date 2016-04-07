@@ -21,12 +21,17 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+# Same as above, just local/bin instead
+ if [ -d "$HOME/local/bin" ] ; then
+    PATH="$HOME/local/bin:$PATH"
+fi
+
 # alias hub to git
 eval "$(hub alias -s)"
 
 # Set hub bash completion
-if [ -f $HOME/hub-linux-amd64-2.2.3/etc/hub.bash_completion ]; then
-    . $HOME/hub-linux-amd64-2.2.3/etc/hub.bash_completion
+if [ -f $HOME/etc/hub.bash_completion ]; then
+    . $HOME/etc/hub.bash_completion
 fi
 
 # Set default editor
@@ -35,3 +40,7 @@ export EDITOR=vim.basic
 
 # Set some aliases
 alias tmux='tmux -2'
+
+# Set virtualenvwrapper environment variables
+export WORKON_HOME=$HOME/envs
+export PROJECT_HOME=$HOME/python
