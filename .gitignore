@@ -22,3 +22,7 @@ replica.my.cnf.save
 envs/
 local/
 node_modules/
+.vim/
+python/
+.vim/autoload/
+.vim/plugged/
