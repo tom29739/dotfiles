@@ -1,6 +1,5 @@
 .bash_history
 .bash_logout
-.bashrc
 .cache/
 .viminfo
 replica.my.cnf
@@ -22,3 +21,6 @@ replica.my.cnf.save
 envs/
 local/
 node_modules/
+*.err
+*.out
+.*_history
