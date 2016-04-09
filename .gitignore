@@ -9,9 +9,9 @@ replica.my.cnf.save
 .links2/
 .joe_state
 .elinks/
-.vim/plugged/
-.vim/plugged/vim-airline/
+.vim/plugged/*/
 .vim/plugged/*
+.vim/plugged/
 .vim/autoload/
 .composer/
 .*.swp
@@ -24,3 +24,6 @@ node_modules/
 *.err
 *.out
 .*_history
+.vim/
+python/
+
