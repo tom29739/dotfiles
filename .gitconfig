@@ -1,5 +1,8 @@
 [user]
 	name = tom29739
 	email = tom29739@users.noreply.github.com
+	signingkey = C4AC725D
 [hub]
 	protocol = https
+[commit]
+	gpgsign = true
